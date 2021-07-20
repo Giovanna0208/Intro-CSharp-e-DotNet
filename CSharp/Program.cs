@@ -1,4 +1,5 @@
-﻿using Primeiro;
+﻿using System;
+using Primeiro;
 using Classes;
 using Interface;
 using Enum;
@@ -33,6 +34,8 @@ namespace CSharp
 
             var classe = new Classe();
             var classe2 = new Segundo.Classe();
+
+            Console.WriteLine(pessoa3);
         }
     }
 }
